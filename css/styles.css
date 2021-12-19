@@ -109,7 +109,6 @@
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
-  background: #ffffff;
 }
 /*hero*/
 /*hero main section 1*/
@@ -320,6 +319,21 @@
   background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
 }
 /*hero section 4*/
+.hero-team {
+  position: absolute;
+  width: 264px;
+  height: 42px;
+  left: 668px;
+  top: 1543px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
 .hero-team-pcs1 {
   position: absolute;
   width: 270px;
@@ -526,11 +540,11 @@
   letter-spacing: 0.03em;
   color: #2196f3;
 }
-.footer-logo-black {
+.footer-logo-white {
   position: absolute;
   width: 145px;
   height: 31px;
-  left: 215px;
+  left: 275px;
   top: 2157px;
   font-family: Raleway;
   font-style: normal;
@@ -538,20 +552,24 @@
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #white;
+  color: #ffffff;
 }
 .footer-adres {
   position: absolute;
   width: 231px;
   height: 21px;
   left: 215px;
-  top: 2208px;
+  top: 1739px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  /* or 171% */
+
   letter-spacing: 0.03em;
+
   color: #ffffff;
 }
 .body {
@@ -568,17 +586,560 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-tel {
+.footer-mail {
   position: absolute;
   width: 231px;
   height: 21px;
   left: 215px;
-  top: 2268px;
+  top: 1769px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  /* or 171% */
+
   letter-spacing: 0.03em;
+
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-tel {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 1799px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*portfolio*/
+/*hero portfolio*/
+.hero-button-1 {
+  position: absolute;
+  width: 29px;
+  height: 26px;
+  left: 517px;
+  top: 180px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  position: absolute;
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.hero-button-2 {
+  position: absolute;
+  width: 84px;
+  height: 26px;
+  left: 598px;
+  top: 180px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.hero-button-3 {
+  position: absolute;
+  width: 101px;
+  height: 26px;
+  left: 734px;
+  top: 180px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  position: absolute;
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.hero-button-4 {
+  position: absolute;
+  width: 59px;
+  height: 26px;
+  left: 887px;
+  top: 180px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  position: absolute;
+  width: 103px;
+  height: 38px;
+  left: 865px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.hero-button-4 {
+  position: absolute;
+  width: 86px;
+  height: 26px;
+  left: 998px;
+  top: 180px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  position: absolute;
+  width: 130px;
+  height: 38px;
+  left: 976px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.hero-portfolio-pcs1 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 262px;
+
+  background: url(portfolio1.jpg);
+}
+.hero-portfolio-title1 {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 239px;
+  top: 576px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.hero-portfolio-text1 {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 239px;
+  top: 616px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.hero-portfolio-pcs2 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 262px;
+
+  background: url(portfolio2.jpg);
+}
+.hero-portfolio-title2 {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 639px;
+  top: 576px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.hero-portfolio-text2 {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 639px;
+  top: 616px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.hero-portfolio-pcs3 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 262px;
+
+  background: url(portfolio-1.jpg);
+}
+.hero-portfolio-title3 {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 1039px;
+  top: 576px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.hero-portfolio-text3 {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 1039px;
+  top: 616px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.hero-portfolio-pcs4 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 696px;
+
+  background: url(portfolio-2.jpg);
+}
+.hero-portfolio-title4 {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 239px;
+  top: 1010px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.hero-portfolio-text4 {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 239px;
+  top: 1050px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.hero-portfolio-pcs5 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 696px;
+
+  background: url(portfolio5.jpg);
+}
+.hero-portfolio-title5 {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 639px;
+  top: 1010px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.hero-portfolio-text5 {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 639px;
+  top: 1050px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.hero-portfolio-pcs6 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 696px;
+
+  background: url(111.jpg);
+}
+.hero-portfolio-title6 {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 1039px;
+  top: 1010px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.hero-portfolio-text6 {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 1039px;
+  top: 1050px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.hero-portfolio-pcs7 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1130px;
+
+  background: url(portfolio7.jpg);
+}
+.hero-portfolio-title7 {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 239px;
+  top: 1444px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.hero-portfolio-text7 {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 239px;
+  top: 1484px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.hero-portfolio-pcs8 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1130px;
+
+  background: url(portfolio8.jpg);
+}
+.hero-portfolio-title8 {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 639px;
+  top: 1444px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.hero-portfolio-text8 {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 639px;
+  top: 1484px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.hero-portfolio-pcs9 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1130px;
+
+  background: url(2910404.jpg);
+}
+.hero-portfolio-title9 {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 1039px;
+  top: 1444px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.hero-portfolio-text9 {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 1039px;
+  top: 1484px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/*footer*/
