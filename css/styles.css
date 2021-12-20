@@ -2,6 +2,11 @@
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
   color: #212121;
+  position: relative;
+width: 1600px;
+height: 2349px;
+
+background: #FFFFFF;
 }
 /*header*/
 .header {
@@ -616,6 +621,13 @@ color: #FFFFFF;
 
 /*portfolio*/
 /*hero portfolio*/
+.hero-portfolio{
+  position: absolute;
+width: 1170px;
+height: 1360px;
+left: 215px;
+top: 174px;
+}
 .hero-button-1 {
   position: absolute;
   width: 29px;
@@ -1146,4 +1158,13 @@ border-radius: 4px;
   left: 0px;
   top: 2097px;
   background: #2f303a;
+}
+.footer-portfolio{
+  position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 1628px;
+
+background: #2F303A;
 }
